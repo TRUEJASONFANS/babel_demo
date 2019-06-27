@@ -1,0 +1,17 @@
+{
+  "name": "babel_demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/TRUEJASONFANS/babel_demo",
+  "author": "zhxie <zhong-wei.xie@asml.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib"
+  },
+  "dependencies": {}
+}
