@@ -11,7 +11,7 @@ const presets = [
         },
         "modules": "auto",  //设置ES6 模块转译的模块格式 默认是 commonjs
         "debug": true, // debug，编译的时候 console
-        useBuiltIns: "usage",
+        useBuiltIns: "usage", // When setting `useBuiltIns: 'usage'`, polyfills are automatically imported when needed.
       },
     ],
   ];
